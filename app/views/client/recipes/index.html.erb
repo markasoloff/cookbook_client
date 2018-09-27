@@ -1,0 +1,7 @@
+<% @recipes.each do |recipe| %>
+<h2>Recipe <%= recipe["title"] %></h2>
+  <h3>By: <%= recipe["chef"] %></h3>
+  <h4>Ingredients: <%= recipe["ingredients"] %></h4>
+  <h4>Prep time: <%= recipe["prep_time"] %></h4>
+  <br>
+<% end %>
